@@ -19,11 +19,11 @@ from recommenders.models.ListSongId import ListSongId
 from recommenders.models.recommender_response import RecommenderResponse
 
 content_based_recommender = ContentBasedRecommender(
-    model_path="https://firebasestorage.googleapis.com/v0/b/musix-cfd8e.appspot.com/o/content_based_model.sav?alt=media&token=https://firebasestorage.googleapis.com/v0/b/musix-cfd8e.appspot.com/o/content_based_model.sav?alt=media&token=c8779635-b363-4306-93e1-0d49075754f9",
+    model_path="https://drive.google.com/uc?export=download&id=1zOc44sCk4NSsCq5bzk7ZP5LOXrXRh1V0&confirm=t&uuid=cf31f9ab-ac3c-4c67-9a20-a7b9c3604215&at=ALt4Tm0UGG52LRwEKGKQgHP3yyPn:1689270819563",
     perms=128
 )
 collab_recommender = CollaborativeFilteringRecommender(
-    model_path="https://firebasestorage.googleapis.com/v0/b/musix-cfd8e.appspot.com/o/knn_model.sav?alt=media&token=11a7f083-371c-4911-9159-344047e87962")
+    model_path="https://drive.google.com/uc?export=download&id=1EHRzZIU0TcPfYYQYmdTVi0mnL21BJK1M")
 print('Hell')
 app = FastAPI()
 
